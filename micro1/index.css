@@ -1,0 +1,317 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* -------------------Navbar--------------------------- */
+.navbar
+{
+    height:4rem;
+    width:100%;
+    background-color: #6F6AF7;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.navbarSection
+{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+}
+.navbarElements
+{
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+    
+}
+.logoImg
+{
+    width: 6rem;
+    padding-left: 3rem;
+}
+.navbarFont
+{
+    font-family: 'DM Sans';
+    color: white;
+}
+.search
+{
+    position: relative;
+}
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 20px;
+    padding-right: 0.7rem;
+    
+  }
+  .search input {
+    padding: 3px 4px 5px 8px;
+    font-family: 'Inter';
+    border-radius: 2rem;
+    outline: none;
+    height: 1.4rem;
+    border: 0;
+    
+  }
+  ::placeholder
+  {
+    font-family: 'DM Sans';
+    
+  }
+  .menuIcon
+  {
+    height: 1.5rem;
+  }
+/* -------------------Navbar Ends--------------------------- */
+/* -------------------1st Section Starts----------------------------------------*/
+.container
+{
+    margin-left: 5rem;
+}
+.headerSection
+{
+    display: flex;
+    gap: 7rem;
+    margin-right: 7rem;
+    width: 88%;
+    float: left;
+
+}
+.box
+{
+    background-color: 
+    #E5D8FF;
+    width: 70rem;
+    margin-top: 10rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+.box h5
+{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    color:#6F7373;
+    font-family: 'DM Sans';
+    font-weight: 400;
+}
+.techImage
+{
+    margin-top: 10rem;
+    width: 18rem;
+}
+.socialIcons
+{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    padding-top: 12rem;
+    position: sticky;
+    top:-8rem;
+    margin-right: 2rem;    
+}
+/* -------------------1st Section ends----------------------------------------*/
+/* -------------------2nd Section Starts----------------------------------------*/
+.boxes
+{
+    margin-top: 13rem;
+    display: flex;
+    justify-content: center;
+    gap:7rem;
+    margin-right: 6.0rem;
+
+}
+.boxer
+{
+    width: 15rem;
+    font-family: 'DM Sans';
+    height: 6rem;
+    border-radius: 1rem;
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+    box-sizing: border-box;
+    box-shadow:0px 9px 31px 0px #00000066;
+    ;
+    
+}
+.box1
+{
+    background-color:  #929DFF;
+   
+}
+.box2
+{
+    background-color:  #734CF2;
+}
+.box3
+{
+    background-color:   #D288FF;
+}
+.box4
+{
+    background-color:  #000000;
+}
+/* -------------------2nd Section ends----------------------------------------*/
+/* ------icon help----- */
+.help
+{
+    position: fixed;
+    z-index: 1;
+    left: 79rem;
+    bottom: 2rem;
+}
+.helpIcon
+{
+    width: 7rem;
+    
+}
+/* ------icon help ends----- */
+/* -------------------3nd Section starts----------------------------------------*/
+.info
+{
+margin-top: 6rem;
+margin-left: 4rem;
+margin-bottom: 5rem;
+position: relative;
+
+
+}
+.containerInfo
+{
+    background-color:  #483EFF;
+    height: 600px;
+    width: 1300px;
+    padding-bottom: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    box-sizing: border-box;
+}
+.leftContainer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 3rem;
+    gap: 5rem;
+    margin-top: 7%;
+    
+}
+.infoBox
+{
+    width: 15rem;
+    height: 5rem;
+    font-family: 'DM Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 35px 0px #00000063;
+    border-radius: 1.1rem;
+    font-weight: 700;
+}
+.infoBox1
+{
+    background: #BCE0F6;
+    color: black;
+}
+.infoBox2
+{
+    background: #483EFF;
+    border: 3px solid #FFFFFF;
+    color: white;
+
+
+}
+.infoBox3
+{
+    background: #483EFF;
+    border: 3px solid #FFFFFF;
+    color: white;
+}
+.rightContainer
+{
+    width: 950px;
+    height:30rem ;
+    margin-top: 4.5rem;
+    margin-left: 2rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+}
+.information
+{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.commonFont h1
+{
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #04285A;
+}
+.innerFont
+{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    color: #04285A;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+.commonPadding
+{
+    padding-bottom: 2rem;
+}
+.colon
+{
+    display: inline-block;
+    margin-left: 3rem;
+}
+.contentRight
+{
+    display: inline-block;
+    font-family: 'Roboto';
+
+}
+.tempName
+{
+    margin-left: 3.3rem;
+}
+.tempEmail
+{
+    margin-left: 3.4rem;
+}
+.innerRightContent
+{
+    font-family: 'Roboto';
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.innerButton
+{
+    width: 7rem;
+    height: 2.4rem;
+    background: #000000;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    border-radius: 0.2rem;
+    justify-content: center;
+    float: right;
+    margin-right: 7rem;
+    margin-top: 4rem;
+}
+.innerImage
+{
+    width: 1rem;
+}
+/* -------------------3rd Section ends----------------------------------------*/
